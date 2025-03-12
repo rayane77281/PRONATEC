@@ -1,0 +1,4 @@
+peso = int(input("qual seu peso ATUAL?"))
+altura = float(input("qual sua  altura"))
+imc = peso / (altura * altura)
+print(round(imc, 2))
